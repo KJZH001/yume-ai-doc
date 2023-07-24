@@ -3,14 +3,13 @@
 
 <img src="https://img.cdn.loliloli.net/images/2022/07/16/IIFy.png" width="128px"/>
 
-# 空梦世界 MoeWorld <small>bp 4</small>
+# 梦AI <small>Pre</small>
 
-> 来，和我们一起让MC的世界变得萌起来吧！
+> 让我们一起用AI技术，探索更多世界未知的可能吧！
 
-- 全版本 支持Java版1.7.10-1.19.x
-- 跨平台 支持Bedrock
-- 混合登录 正版登录与外置登录共存
+- 简洁 规范API定义，简洁的API文档，让你快速上手
+- 轻量 无需任何依赖，轻量级的API，让你的项目更加轻盈
+- 快速 可视化在线控制台，让你快速调试API，效果直观
 
+[官网](https://ai.moeworld.tech/)
 [博客](https://blog.moeworld.tech/)
-[皮肤站](https://skin.moeworld.top/)
-[官网](https://blog.moeworld.tech/)
