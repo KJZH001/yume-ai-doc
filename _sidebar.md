@@ -12,7 +12,7 @@
 
 * API概述
 
-    * [我应该如何选择登陆方式？](first/what-should-i-login)
+    * [概述](api/overview)
 
 * 下载站
 
