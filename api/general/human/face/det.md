@@ -26,3 +26,14 @@ content:b'{"code": 1000, "msg": "[INFO] success. __main__", "result":
 
 ```
 ![Ewfk.png](https://img.cdn.loliloli.net/images/2023/07/24/Ewfk.png)
+
+### [人脸检测](api/general/human/face/det)
+这里是一点介绍
+- 特性
+- 2
+- 3
+
+### 适用常见
+- 户外人流量检测统计
+- 2
+- 3
