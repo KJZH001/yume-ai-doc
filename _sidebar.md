@@ -21,14 +21,6 @@
     * 行为检测
     * [玩手机](api/general/human/person/hold_phone)
 
-* 下载站
-
-    * [介绍](dowanload/introduce)
-    * [分类](dowanload/)
-    * [mc整合包文件](dowanload/)
-    * [](dowanload/)
-    * [](dowanload/)
-
 * 测试
 
     * [1](setup/game)
@@ -39,7 +31,6 @@
     * [](undefind/)
     * [](undefind/)
     * [](undefind/)
-    * [第一次接触MC的入门指南（旧）](first/main-old)
 
 * 关于
 
