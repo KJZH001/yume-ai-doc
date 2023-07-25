@@ -35,10 +35,11 @@
 * 关于
 
     * [联系我们](undefind/)
-    * [友情链接](undefind/)
     * [用户协议&免责声明](about/license)
     * [](undefind/)
     * [](undefind/)
 
+* 友情链接
 
+    * [晓空blog](https://blog.moeworld.tech)
 
