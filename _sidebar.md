@@ -42,4 +42,5 @@
 * 友情链接
 
     * [晓空blog](https://blog.moeworld.tech)
+    * [AisDeployC-Demo](https://github.com/JinghuiZhou/AisDeployC-Demo)
 
