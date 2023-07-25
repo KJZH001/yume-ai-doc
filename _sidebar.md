@@ -18,7 +18,7 @@
     * [人脸检测](api/general/human/face/det)
     * [人体检测](api/general/human/person/det)
     * [轻量人体关键点](api/general/human/person/pose)
-    * 行为检测
+    * **行为检测**
     * [玩手机](api/general/human/person/hold_phone)
 
 * 测试
@@ -34,9 +34,9 @@
 
 * 关于
 
-    * [用户协议&](undefind/)
     * [联系我们](undefind/)
     * [友情链接](undefind/)
+    * [用户协议&免责声明](about/license)
     * [](undefind/)
     * [](undefind/)
 
