@@ -13,3 +13,4 @@
 
 [官网](https://ai.moeworld.tech/)
 [博客](https://blog.moeworld.tech/)
+[开始体验](https://ai-doc.moeworld.top/#/README)
