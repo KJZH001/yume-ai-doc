@@ -76,3 +76,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAKqCAYAAACkSiwxAAAAAXNSR0IArs
 
 其中`code`是状态码，`msg`是状态信息，`result`是返回的结果，这里的`result`是`null`，表示没有返回结果
 
+## 备注
+为了便于阅读，此处的返回数据格式是经过格式化的，实际返回的数据是没有格式化的，也就是说，返回的数据中不会有换行符和空格
+
+如果您使用的是Python，那么您可以使用`json.dumps()`函数来格式化它，如果您使用的是Java，那么您可以使用`JSONObject.toString()`函数来格式化它
