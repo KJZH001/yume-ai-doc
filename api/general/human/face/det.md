@@ -25,9 +25,33 @@ content:b'{"code": 1000, "msg": "[INFO] success. __main__", "result":
 "category": "face|wider", "score": 0.7053682208061218}, {"bbox":
 [356.27105712890625, 210.7069091796875, 386.0273742675781, 242.7073516845703],
 "category": "face|wider", "score": 0.1973469853401184}]]}'
-
 ```
+
+## json参数含义
+
+这是其中的一段json
+
+```json
+[
+    {
+        "bbox": [
+            87.8051986694336, 
+            203.67938232421875, 
+            139.88705444335938, 
+            262.81439208984375
+        ], 
+        "category": "face|wider", 
+        "score": 0.8517948389053345
+    }, 
+]
+```
+xxx的含义是什么，代表什么
+
+
+## 参考效果图片
 ![Ewfk.png](https://img.cdn.loliloli.net/images/2023/07/24/Ewfk.png)
+
+---
 
 ### [人脸检测](api/general/human/face/det)
 这里是一点介绍

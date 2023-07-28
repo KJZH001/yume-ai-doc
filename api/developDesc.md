@@ -63,6 +63,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAKqCAYAAACkSiwxAAAAAXNSR0IArs
                 "category": "face|wider", 
                 "score": 0.8517948389053345
             }, 
+        ]
     ]
 }
 ```

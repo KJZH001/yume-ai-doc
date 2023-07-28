@@ -22,5 +22,5 @@
 - 3
 ### [人体检测](api/general/human/person/det)
 ### [轻量人体关键点](api/general/human/person/pose)
-### 行为检测
+## 行为检测
 ### [玩手机](api/general/human/person/hold_phone)
