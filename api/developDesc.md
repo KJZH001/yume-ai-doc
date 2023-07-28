@@ -37,4 +37,6 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAKqCAYAAACkSiwxAAAAAXNSR0IArs
 
 > 这里的base64只是随便截取的一段，不是合法的base64编码图像
 
+我们的程序会检查您提交的数据是否包含`data:image/png;base64,`这样的标识头，如果包含，那么程序会自动将其删除，但是这样做可能会导致程序无法正确分析识别，因为我们无法预料到你提交的标识头会是什么样的，也无法保证完全能够去除，所以请您在提交数据时注意这一点
+
 ## 返回数据
