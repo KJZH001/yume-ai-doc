@@ -6,6 +6,8 @@
 | 轻量级通用人体关键点   | 关键点     | /image/general/human/person/pose |                              |
 | 通用人体行为-玩手机   | 检测       | /image/general/human/person/hold_phone |                          |
 
+
+
 # 介绍
 ## 通用模型
 ### [人脸检测](api/general/human/face/det)
