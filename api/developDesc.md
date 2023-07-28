@@ -22,7 +22,9 @@
 ### Image
 图像需要使用base64编码，如果您在程序中调用，您可以使用任何语言的base64编码函数，例如在Python中您可以使用`base64.b64encode()`函数，如果您使用的是Java，那么您可以使用`Base64.getEncoder().encodeToString()`函数
 
-但是请注意，请不要在提交的数据中包含`data:image/png;base64,`这样的标识头
+原始图片可以是jpg格式或者png格式，对于这两种格式的图片，您都可以使用base64编码直接转换
+
+但是请注意，请不要在提交的数据中包含`data:image/png;base64,`这样的标识头，这可能会导致程序意外的出错或无法正确分析识别
 
 提交的数据看起来应该像这样
 ```
@@ -32,3 +34,7 @@ iVBORw0KGgoAAAANSUhEUgAABAAAAAKqCAYAAACkSiwxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
 ```
 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAKqCAYAAACkSiwxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAP+lSURBVHhe7P31m1tZlq2N9l908TvnuweaqruLK9EYHKEQh0KsEIeCOczMzMzMzGxn2k4no5MZatw55taSt+VwQlVlVXcd/zCezby3tN6x5prrH0aNfgbPj3oazz73Bzzz7O9VHH/u+ad0vllOcR6XP/3M71RPPf3bR9YdM/Y5jB33PMaNH4XxFaN1mvO5Htf/w1O/UXGc+7BvO3rMsw+p/
 ```
+
+> 这里的base64只是随便截取的一段，不是合法的base64编码图像
+
+## 返回数据
