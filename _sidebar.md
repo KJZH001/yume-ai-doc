@@ -13,7 +13,7 @@
 * API概述
 
     * [概述](api/overview)
-    * [开发说明][api/developDesc.md]
+    * [开发说明](api/developDesc.md)
 
 * 通用模型
     * [人脸检测](api/general/human/face/det)
