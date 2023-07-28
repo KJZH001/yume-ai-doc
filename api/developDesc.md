@@ -9,7 +9,7 @@
 那么您的请求地址就应该是这样的：`https://ai.moeworld.tech/api/service/image/general/human/face/det`
 
 ## 请求方式
-所有的接口都是使用`POST`请求，请求的`Content-Type`为`application/form`
+所有的接口都是使用`POST`请求，请求的`Content-Type`为`multipart/form-data;`
 
 ## 请求参数
 对于这些视觉图像分析的接口而言，请求的参数都是一样的
@@ -38,6 +38,10 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAKqCAYAAACkSiwxAAAAAXNSR0IArs
 > 这里的base64只是随便截取的一段，不是合法的base64编码图像
 
 我们的程序会检查您提交的数据是否包含`data:image/png;base64,`这样的标识头，如果包含，那么程序会自动将其删除，但是这样做可能会导致程序无法正确分析识别，因为我们无法预料到你提交的标识头会是什么样的，也无法保证完全能够去除，所以请您在提交数据时注意这一点
+
+### 请求实列
+apikey: `1234567890`
+image:`iVBORw0KGgoAAAANSUhEUgAABAAAAAKqCAYAAACkSiwxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjw`
 
 ## 返回数据
 
