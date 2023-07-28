@@ -27,11 +27,11 @@
 但是请注意，请不要在提交的数据中包含`data:image/png;base64,`这样的标识头，这可能会导致程序意外的出错或无法正确分析识别
 
 提交的数据看起来应该像这样
-```
+```base64
 iVBORw0KGgoAAAANSUhEUgAABAAAAAKqCAYAAACkSiwxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAP+lSURBVHhe7P31m1tZlq2N9l908TvnuweaqruLK9EYHKEQh0KsEIeCOczMzMzMzGxn2k4no5MZatw55taSt+VwQlVlVXcd/zCezby3tN6x5prrH0aNfgbPj3oazz73Bzzz7O9VHH/u+ad0vllOcR6XP/3M71RPPf3bR9YdM/Y5jB33PMaNH4XxFaN1mvO5Htf/w1O/UXGc+7BvO3rMsw+p/
 ```
 而不是这样
-```
+```base64
 data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAKqCAYAAACkSiwxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAP+lSURBVHhe7P31m1tZlq2N9l908TvnuweaqruLK9EYHKEQh0KsEIeCOczMzMzMzGxn2k4no5MZatw55taSt+VwQlVlVXcd/zCezby3tN6x5prrH0aNfgbPj3oazz73Bzzz7O9VHH/u+ad0vllOcR6XP/3M71RPPf3bR9YdM/Y5jB33PMaNH4XxFaN1mvO5Htf/w1O/UXGc+7BvO3rMsw+p/
 ```
 

@@ -1,5 +1,7 @@
 # 通用人脸检测
-服务器响应
+完整请求地址：`https://ai.moeworld.tech/api/service/image/general/human/face/det`
+
+服务器参考响应（实际json输出部分为content:b处的内容）
 ```
 status_code:200
 content:b'{"code": 1000, "msg": "[INFO] success. __main__", "result":
