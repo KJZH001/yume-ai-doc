@@ -22,8 +22,12 @@
     * **行为检测**
     * [玩手机](api/general/human/person/hold_phone)
 * 大语言模型
-    * [ChatGPT]()  
+    * [概述](api/chat/general.md)  
     * [聚合接口](api/chat/polymerization.md)  
+    * [在线面板](api/chat/nextWeb.md)
+    * [ChatGPT](api/chat/gpt.md)
+    * [ChatGLM](api/chat/glm.md)
+    
 
 * 测试
 
