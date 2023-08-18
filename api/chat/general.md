@@ -49,3 +49,18 @@ https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/ch
 
 请不要感到疑惑，你在控制台上看到的key是没有`MoeKey-`这串标识头的，但是你在请求路径中需要加上这串标识头
 
+#### 使用Openai兼容的接口定义进行传参鉴权
+请注意，接口的鉴权中，使用路由传参的优先级高于使用Openai兼容的接口定义进行传参，如果你想要使用这种方式进行鉴权，路径中不能够包含你的key
+
+如果可以的话也请优先考虑使用路由传参的方式进行鉴权而不是这种兼容的接口定义进行传参的方式进行鉴权
+
+如果你确实需要使用和Openai协议接口一致的鉴权方式，那么你可以优先考虑使用`聚合接口`，你可以目录中找到它
+
+---
+
+你的请求路径看上去应该是这样，比起另外一致方式少了一串key
+
+```
+https://ai.moeworld.tech/api/gpt/chat/completions
+```
+
