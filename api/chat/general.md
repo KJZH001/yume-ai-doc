@@ -64,3 +64,8 @@ https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/ch
 https://ai.moeworld.tech/api/gpt/chat/completions
 ```
 
+同样的，你需要为你的header里加入这么一串东西
+
+```
+Authorization: Bearer xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+```
