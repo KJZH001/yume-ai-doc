@@ -58,7 +58,7 @@ https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/ch
 
 ---
 
-你的请求路径看上去应该是这样，比起另外一致方式少了一串key
+你的请求路径看上去应该是这样，比起另外一种方式少了一串key
 
 ```
 https://ai.moeworld.tech/api/gpt/chat/completions
