@@ -93,3 +93,29 @@ Authorization: Bearer xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 如果你想要做出更细致的微调或者传递历史对话，可以修改`messages`的内容
 
 具体的请查阅Openai官方的文档，这里不再赘述
+
+## 响应内容
+以下仅供参考，具体的响应内容取决于你的请求内容
+```
+{
+    "id": "chatcmpl-7oqoflxUbLGTN6rWApmbCMjPX9Hzj",
+    "object": "chat.completion",
+    "created": 1692353781,
+    "model": "gpt-35-turbo",
+    "choices": [
+        {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+                "role": "assistant",
+                "content": "你好啊！有需要我帮忙的吗？"
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 11,
+        "total_tokens": 27
+    }
+}
+```
