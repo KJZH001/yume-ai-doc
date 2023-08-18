@@ -84,3 +84,12 @@ Authorization: Bearer xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
   ]
 }
 ```
+请求的模型由`model`的值决定，如果是GLM模型，这个值不会起作用，但是你仍然需要传入这个值（可以随便填）
+
+`messages`是一个数组，数组中的每一个元素都是一个对象，对象中包含两个属性，`role`和`content`
+
+`role`可以是`user，assistant，system`，分别代表`用户，AI生成的内容和系统级别的提示（也就是你给AI的设定）`
+
+如果你想要做出更细致的微调或者传递历史对话，可以修改`messages`的内容
+
+具体的请查阅Openai官方的文档，这里不再赘述
