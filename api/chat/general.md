@@ -12,7 +12,6 @@ ChatGLM使用的是ChatGLM6B的int4量化模式运行，效果目前不如ChatGP
 ## 接口定义
 以ChatGPT为例，你可以在[这里](https://ai.moeworld.tech/chat/gpt)查看接口的大致定义和在线调试
 
-
 ### 请求路径
 ```
 https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/chat/completions
@@ -35,3 +34,5 @@ https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/ch
 比如，要不要加Bearer？或者，程序只为了对接Openai官方的API，而不是对接其他的API
 
 所以强制帮你在key上塞了个sk-，但是你的key里又没有sk这么个标识头，这就很尴尬了
+
+#### 使用路由传参鉴权
