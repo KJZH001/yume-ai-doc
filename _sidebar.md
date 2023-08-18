@@ -21,6 +21,9 @@
     * [轻量人体关键点](api/general/human/person/pose)
     * **行为检测**
     * [玩手机](api/general/human/person/hold_phone)
+* 大语言模型
+    * [ChatGPT]()  
+    * [聚合接口](api/chat/polymerization.md)  
 
 * 测试
 
