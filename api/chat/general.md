@@ -40,4 +40,12 @@ https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/ch
 所以强制帮你在key上塞了个sk-，但是你的key里又没有sk这么个标识头，这就很尴尬了
 
 #### 使用路由传参鉴权
+```
+https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/chat/completions
+```
+这是我们的完整请求路径，其中`MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`是你的API Key
+
+你可以在[这里](https://ai.moeworld.tech/page/dashboard)查看你的API Key
+
+请不要感到疑惑，你在控制台上看到的key是没有`MoeKey-`这串标识头的，但是你在请求路径中需要加上这串标识头
 
