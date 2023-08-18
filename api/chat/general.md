@@ -23,5 +23,15 @@ https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/ch
 
 实际上，后面这部分是什么都无所谓，接口不会管你在后面究竟传入了什么东西，但是为了方便，我们还是建议你使用默认的请求路径
 
-
 ### 鉴权方式
+正如你所看到的完整请求路径，我们使用的是API Key作为请求路由的一部分的方式进行鉴权，你可以在[这里](https://ai.moeworld.tech/page/dashboard)查看你的API Key
+
+这是考虑到有些程序可能不支持在请求头中传入鉴权信息，或者是强制要求使用Authorization: Bearer sk-xxx的格式
+
+为了防止出现格式上出现预期之外的情况，所以我们使用了这种方式进行鉴权
+
+毕竟，大多数程序当中，请求的路径是可以被随便修改的，而请求头却不是，甚至你可能还需要和格式斗智斗勇一番
+
+比如，要不要加Bearer？或者，程序只为了对接Openai官方的API，而不是对接其他的API
+
+所以强制帮你在key上塞了个sk-，但是你的key里又没有sk这么个标识头，这就很尴尬了
