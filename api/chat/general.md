@@ -69,3 +69,4 @@ https://ai.moeworld.tech/api/gpt/chat/completions
 ```
 Authorization: Bearer xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
+这里和Openai的协议接口定义保持一致，请注意，这里的key是没有`sk-`这个标识头的，也同样没有`MoeKey-`这个标识头
