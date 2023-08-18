@@ -22,3 +22,6 @@ https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/ch
 其中，只有`https://ai.moeworld.tech/api/gpt/`这部分是必须的，`MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`和`chat/completions`是可选的，`chat/completions`是默认的请求路径，具体取决于你想要对接的程序
 
 实际上，后面这部分是什么都无所谓，接口不会管你在后面究竟传入了什么东西，但是为了方便，我们还是建议你使用默认的请求路径
+
+
+### 鉴权方式
