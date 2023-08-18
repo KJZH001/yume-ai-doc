@@ -35,3 +35,8 @@ https://api.moeworld.top/api/openai/index.php?web=true&
 
 #### 自定义模型名称
 如果你需要使用glm模型，请在这里输入glm
+
+#### 模型(model)
+在这里可以选择你想要使用的模型了，如果你在上面自定义模型名称中输入了glm，你在这里也将会看到它
+
+选择glm将会调用glm模型，选择其他的将会调用来自Openai的GPT模型
