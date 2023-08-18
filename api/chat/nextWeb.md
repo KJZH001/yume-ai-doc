@@ -27,3 +27,8 @@
 https://api.moeworld.top/api/openai/index.php?web=true&
 ```
 不需要对地址做出任何的修改
+
+#### API Key
+这里你需要填写你的API Key，你可以在[这里](https://ai.moeworld.tech/page/dashboard)查看你的API Key
+
+这里直接填写你在控制台拿到的key即可，没有MoeKey-或者sk-这些前缀标识头
