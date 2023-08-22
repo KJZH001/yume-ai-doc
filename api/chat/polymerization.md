@@ -29,3 +29,42 @@ https://api.moeworld.top/api/openai/index.php
 这一部分是最基本的地址，你可以直接使用它，也可以在后面加上参数
 
 但是请注意，不要去掉index.php，否则将会容易导致出现一些意外的问题
+
+### 可选参数
+```url
+?web=true&
+```
+正如你所见的，它是一个GET参数，你可以在后面加上它，也可以不加
+
+如果你不加，那么你将会得到一个JSON格式的回复，这个回复将会是一个标准的Openai接口回复
+
+如果添加了web=true，那么你会得到一个仅包含文本的回复，这个回复将会是一个纯文本
+
+对应的是Openai接口回复中的`choices`字段的`message`字段的`content`字段的值
+
+也就是GPT或者其他的模型返回给用户可被理解的文本
+
+```json
+{
+    "id": "chatcmpl-7oqoflxUbLGTN6rWApmbCMjPX9Hzj",
+    "object": "chat.completion",
+    "created": 1692353781,
+    "model": "gpt-35-turbo",
+    "choices": [
+        {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+                "role": "assistant",
+                "content": "你好啊！有需要我帮忙的吗？"
+            }
+        }
+    ],
+    "usage": {
+        "completion_tokens": 16,
+        "prompt_tokens": 11,
+        "total_tokens": 27
+    }
+}
+```
+以这段标准的Openai接口回复的json为例
