@@ -49,6 +49,10 @@ https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/ch
 
 请不要感到疑惑，你在控制台上看到的key是没有`MoeKey-`这串标识头的，但是你在请求路径中需要加上这串标识头
 
+请注意，如果你在路由中包含了你的API Key，那么不管你在请求头中的Authorization传入了什么，都会被忽略
+
+甚至Authorization都没有传入也是可以的
+
 #### 使用Openai兼容的接口定义进行传参鉴权
 请注意，接口的鉴权中，使用路由传参的优先级高于使用Openai兼容的接口定义进行传参，如果你想要使用这种方式进行鉴权，路径中不能够包含你的key
 
