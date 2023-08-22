@@ -89,4 +89,5 @@ https://api.moeworld.top/api/openai/index.php
 举个例子，实际调用的时候可能你的路径会变成这样
 
 ```url
-https://api.moeworld.top/api/openai/index.php?web=true&
+https://api.moeworld.top/api/openai/index.php?web=true&/v1/chat/completions
+```
