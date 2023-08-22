@@ -93,3 +93,23 @@ https://api.moeworld.top/api/openai/index.php?web=true&/v1/chat/completions
 ```
 
 这样也是可以的，因为`&`的作用就是让你可以随意添加路径
+
+## 切换模型
+
+首先咱们还是以官方的这段json请求体为例
+```json
+{
+  "model": "gpt-3.5-turbo",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你好！"
+    }
+  ]
+}
+```
+在这个接口中，我们可以看到，我们可以通过`model`字段来切换模型，这一点和官方的接口是一致的
+
+如果你将它修改为`glm`，那么将会调用chatglm模型
+
+在后续模型增多以后，我们会单独做出一个页面用于查阅所有模型的名称
