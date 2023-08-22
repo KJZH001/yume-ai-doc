@@ -27,3 +27,5 @@ https://api.moeworld.top/api/openai/index.php?web=true&
 https://api.moeworld.top/api/openai/index.php
 ```
 这一部分是最基本的地址，你可以直接使用它，也可以在后面加上参数
+
+但是请注意，不要去掉index.php，否则将会容易导致出现一些意外的问题
