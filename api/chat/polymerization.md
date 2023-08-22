@@ -5,4 +5,5 @@
 
 你可以在[这里](https://beta.openai.com/docs/api-reference/completions/create)查看官方的接口定义
 
-或者，你也可以在[这里](https://openai.apifox.cn/api-67883981)查看国内镜像版本的文档
+或者，你也可以在[这里](https://openai.apifox.cn/api-67883981)查看国内镜像版本的**中文**文档
+
