@@ -22,3 +22,8 @@ https://api.moeworld.top/api/openai/index.php?web=true&
 
 这里我们只讲一些需要注意的地方，以及不同之处
 
+### 基本地址
+```url
+https://api.moeworld.top/api/openai/index.php
+```
+这一部分是最基本的地址，你可以直接使用它，也可以在后面加上参数
