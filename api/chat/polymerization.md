@@ -7,3 +7,11 @@
 
 或者，你也可以在[这里](https://openai.apifox.cn/api-67883981)查看国内镜像版本的**中文**文档
 
+## 接口地址
+```url
+https://api.moeworld.top/api/openai/index.php?web=true&
+```
+这是完整的接口地址，你可以直接使用它
+
+同时，你可能也已经在`在线面板`的使用文档中看到了这个地址，没错，它们是一样的
+
