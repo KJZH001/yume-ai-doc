@@ -44,6 +44,8 @@ https://api.moeworld.top/api/openai/index.php
 
 也就是GPT或者其他的模型返回给用户可被理解的文本
 
+这么说可能有点抽象，下面我们来看一下具体的例子
+
 ```json
 {
     "id": "chatcmpl-7oqoflxUbLGTN6rWApmbCMjPX9Hzj",
@@ -68,3 +70,12 @@ https://api.moeworld.top/api/openai/index.php
 }
 ```
 以这段标准的Openai接口回复的json为例
+
+如果提交的get参数中，web=true，那么你将会得到这样的回复
+
+```text
+你好啊！有需要我帮忙的吗？
+```
+
+是的，只有这一句话，这就是我们所说的纯文本回复，也就是返回给用户可被理解的文本
+
