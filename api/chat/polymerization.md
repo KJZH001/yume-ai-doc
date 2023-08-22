@@ -113,3 +113,9 @@ https://api.moeworld.top/api/openai/index.php?web=true&/v1/chat/completions
 如果你将它修改为`glm`，那么将会调用chatglm模型
 
 在后续模型增多以后，我们会单独做出一个页面用于查阅所有模型的名称
+
+## 特性
+由于ChatGPT next web强制使用流式传输，但是这样会导致我们的接口出现一些问题（我们的接口目前还无法使用流式传输）
+
+所以我们在这里做了一些特殊的处理，使得我们的接口可以正常使用
+
