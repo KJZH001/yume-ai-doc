@@ -26,6 +26,57 @@ https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/ch
 
 实际上，后面这部分是什么都无所谓，接口不会管你在后面究竟传入了什么东西，但是为了方便，我们还是建议你使用默认的请求路径
 
+### 可选参数
+这里有一个可用于获取计费情况的参数，你可以在请求路径的最后加上`?detail=true`来获取计费情况
+
+例如，url应该是这样的
+```url
+https://ai.moeworld.tech/api/glm/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/chat/completions?detail=true
+```
+这是预期返回的结果
+```json
+{
+    "id": "chatcmpl-77PZm95TtxE0oYLRx3cxa6HtIDI7s",
+    "object": "chat.completion",
+    "created": 1682000966,
+    "model": "gpt-3.5-turbo-0301",
+    "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+    },
+    "choices": [
+        {
+            "message": {
+                "role": "assistant",
+                "content": "你好!请问有什么需要帮助的吗?"
+            },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}{
+    "uuid": "xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "balance": 8.77,
+    "fee": 0.05,
+    "total_tokens": 0
+}
+```
+
+比起默认的情况，多出了这么一段json
+
+```json
+{
+    "uuid": "xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "balance": 8.77,
+    "fee": 0.05,
+    "total_tokens": 0
+}
+```
+其中，`total_tokens`代表的是本次请求消耗的token数量，`fee`代表的是本次请求消耗的token数量乘以单价，`balance`代表的是你的账户余额
+
+不同的模型计费情况会有所不同，具体请参考我们后续公布的计费文档
+
 ### 鉴权方式
 正如你所看到的完整请求路径，我们使用的是API Key作为请求路由的一部分的方式进行鉴权，你可以在[这里](https://ai.moeworld.tech/page/dashboard)查看你的API Key
 
