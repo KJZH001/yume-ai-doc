@@ -119,3 +119,10 @@ https://api.moeworld.top/api/openai/index.php?web=true&/v1/chat/completions
 
 所以我们在这里做了一些特殊的处理，使得我们的接口可以正常使用
 
+### 关于流式传输
+这里是官方接口的一些说明
+
+```text
+stream boolean 可选
+如果设置，将发送部分消息增量，就像在 ChatGPT 中一样。当令牌可用时，令牌将作为纯数据服务器发送事件data: [DONE]发送，流由消息终止。有关示例代码，请参阅 OpenAI Cookbook 。
+```
