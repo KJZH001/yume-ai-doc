@@ -91,3 +91,5 @@ https://api.moeworld.top/api/openai/index.php
 ```url
 https://api.moeworld.top/api/openai/index.php?web=true&/v1/chat/completions
 ```
+
+这样也是可以的，因为`&`的作用就是让你可以随意添加路径
