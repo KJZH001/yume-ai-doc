@@ -20,7 +20,7 @@ https://ai.moeworld.tech/api/gpt/MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/ch
 
 `gpt`参数代表的是你请求的模型的类别，**注意是类别**
 
-目前这个位置可以填写的值有`gpt`和`chat`，分别代表的是GPT和ChatGLM
+目前这个位置可以填写的值有`gpt`和`glm`，分别代表的是GPT和ChatGLM
 
 其中，只有`https://ai.moeworld.tech/api/gpt/`这部分是必须的，`MoeKey-xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`和`chat/completions`是可选的，`chat/completions`是默认的请求路径，具体取决于你想要对接的程序
 
