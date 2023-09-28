@@ -15,15 +15,17 @@
 
 你需要关注的有以下几个选项：
 
+```列表
 1.接口地址
 2.API Key
 3.自定义模型名称
 4.模型(model)
 5.注入系统级提示信息
+```
 
 #### 接口地址
 这里你需要填写为
-```
+```Url
 https://api.moeworld.top/api/openai/index.php?web=true&
 ```
 不需要对地址做出任何的修改
