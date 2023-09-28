@@ -126,6 +126,8 @@ Authorization: Bearer xxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
 这里和Openai的协议接口定义保持一致，请注意，这里的key是没有`sk-`这个标识头的，也同样没有`MoeKey-`这个标识头
 
+**后续我们可能会对key的表示头做出通用匹配以更好的解决兼容性问题，但目前还没有正式将此计划实现的打算**
+
 ## 请求体
 这是一个和官方接口完全相同的实列
 ```
