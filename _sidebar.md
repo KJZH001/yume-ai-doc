@@ -7,7 +7,7 @@
 * 入门指南
 
     * [快速开始](start/quick-start)
-    * [2]()
+    * [2](start/quick-start2)
 
 * API概述
 
