@@ -66,14 +66,3 @@
 ![Ewfk.png](https://img.cdn.loliloli.net/images/2023/07/24/Ewfk.png)
 
 ---
-
-### [人脸检测](api/general/human/face/det)
-这里是一点介绍
-- 特性
-- 2
-- 3
-
-### 适用场景
-- 户外人流量检测统计
-- 不定向的人脸定位
-- 3
