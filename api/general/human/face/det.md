@@ -1,10 +1,9 @@
 # 通用人脸检测
 完整请求地址：`https://ai.moeworld.tech/api/service/image/general/human/face/det`
 
-服务器参考响应（实际json输出部分为content:b处的内容）
-```
-status_code:200
-content:b'{"code": 1000, "msg": "[INFO] success. __main__", "result":
+## 服务器响应
+```json
+{"code": 1000, "msg": "[INFO] success. __main__", "result":
 [[{"bbox": [87.7723617553711, 203.63150024414062, 139.8705596923828,
 262.8404846191406], "category": "face|wider", "score": 0.8518432974815369},
 {"bbox": [432.05328369140625, 188.85166931152344, 469.4646911621094,
@@ -24,7 +23,7 @@ content:b'{"code": 1000, "msg": "[INFO] success. __main__", "result":
 [526.0528564453125, 179.9315185546875, 566.4324340820312, 227.0241241455078],
 "category": "face|wider", "score": 0.7053682208061218}, {"bbox":
 [356.27105712890625, 210.7069091796875, 386.0273742675781, 242.7073516845703],
-"category": "face|wider", "score": 0.1973469853401184}]]}'
+"category": "face|wider", "score": 0.1973469853401184}]]}
 ```
 
 ## json参数含义
